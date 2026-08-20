@@ -234,6 +234,9 @@ footer ul{
         margin: 0 auto;
         padding: 10px; 
     }
+    nav span {
+        display: none;
+    }
     nav a {
         display: block;
         margin-bottom: 10px;
