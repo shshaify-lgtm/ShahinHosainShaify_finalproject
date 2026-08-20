@@ -47,13 +47,13 @@
 
                     <h3>Office Hours</h3>
                     <ul>
-                        <li></li><p>Monday: 9:00 AM - 5:00 PM</p></li>
-                        <li><p>Tuesday: 9:00 AM - 5:00 PM</p></li>
-                        <li><p>Wednesday: 9:00 AM - 5:00 PM</p></li>
-                        <li><p>Thursday: 9:00 AM - 5:00 PM</p></li>
-                        <li><p>Friday: 9:00 AM - 5:00 PM</p></li>
-                        <li><p>Saturday: Closed</p></li>
-                        <li><p>Sunday: Closed</p></li>
+                        <li>Monday: 9:00 AM - 5:00 PM</li>
+                        <li>Tuesday: 9:00 AM - 5:00 PM</li>
+                        <li>Wednesday: 9:00 AM - 5:00 PM</li>
+                        <li>Thursday: 9:00 AM - 5:00 PM</li>
+                        <li>Friday: 9:00 AM - 5:00 PM</li>
+                        <li>Saturday: Closed</li>
+                        <li>Sunday: Closed</li>
                     </ul>
                 </aside>
                 <section id="contact-form">
@@ -67,6 +67,35 @@
                             <label for="email">Email:</label>
                             <input type="email" id="email" name="email" required>
                         </div>
+                        <div>
+                            <label for="phone">Phone:</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div>
+                            <label for="reason">Reason for Contact:</label>
+                            <select id="reason" name="reason" required>
+                                <option value="">Select a reason</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="support">Support Request</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <fieldset>
+                            <legend>Preferred Contact Method:</legend>
+                            <label>
+                                <input type="radio" name="contact-method" value="email" required>
+                                Email
+                            </label>
+                            <label>
+                                <input type="radio" name="contact-method" value="phone" required>
+                                Phone
+                            </label>
+                        </fieldset>
                         <div>
                             <label for="message">Message:</label>
                             <textarea id="message" name="message" rows="5" required></textarea>
