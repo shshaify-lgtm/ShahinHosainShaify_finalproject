@@ -176,3 +176,29 @@ footer ul{
     background: rgb(220, 180, 255);
     padding:20px;
 }
+#contact-form h3{
+    background: rgb(192, 121, 255);
+    color:white;
+    padding:10px;
+    margin-bottom:15px;
+}
+#contact-form div{
+    margin-bottom:15px;
+}
+#contact-form label{
+    display:block;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form textarea{
+    width:100%;
+    padding:10px;
+    border:1px solid #777;
+    border-radius:5px;
+    font-family:Arial, sans-serif;
+    font-size:1em;
+    resize:vertical;
+}
