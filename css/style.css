@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    background: rgb(166, 255, 166);
+}
+
+#wrapper{
+    width:90%;
+    max-width:1200px;
+    margin:20px auto;
+    padding:15px;
+}
+
+
+nav{
+    background: rgb(166, 225, 255);
+    padding:15px;
+    padding-bottom:20px;
+}
+
+nav a {
+    text-decoration:none;
+    color:#000;
+    display:inline-block;
+    padding: 0px 20px;
+}
+
+header img {
+    float:left;
+    width:150px;
+    height:150px;
+}
+
+header h1{
+    margin-left:170px;
+    padding-top:50px;
+    font-size:3em;
+}
+
+header{
+    background: rgb(192, 121, 255);
+    color: white;
+    height:180px;
+    margin-bottom:20px;
+    padding:20px;
+}
+
+#game-engines {
+    display:flex;
+    gap:20px;
+    margin-bottom:30px;
+}
+
+#row {
+    flex:1;
+    padding:20px;
+    background: rgb(220, 180, 255);
+}
+
+#row img {
+    width:100%;
+    height:auto;
+    margin-bottom:15px;
+}
+
+#game-projects {
+    clear:both;
+    display:flex;
+    gap:20px;
+}
+
+#row2 {
+    flex:1;
+    padding:20px;
+    background: rgb(220, 180, 255);
+}
+#row2 img {
+    width:100%;
+    height:auto;
+    margin-bottom:15px;
+}
+
+
+main{
+    background: rgb(166, 225, 255);
+    padding:20px;
+    clear:both;
+}
+
+main h2{
+    background: rgb(192, 121, 255);
+    color:white;
+    padding:10px;
+    margin-bottom:15px;
+}
+
+#description{
+    background: rgb(220, 180, 255);
+    padding:20px;
+    min-height:150px;
+    margin-bottom:30px;
+}
+
+
+footer{
+    background: rgb(102, 78, 255);
+    padding:20px;
+    padding-top:20px;
+}
+
+footer img{
+    width:30px;
+    height:30px;
+    margin-right:10px;
+}
+
+#copyright{
+    text-align:center;
+    margin-top:10px;
+    font-size:0.8em;
+}
+
+footer h3{
+    margin-bottom:10px;
+    font-size:1.2em;
+}
+
+footer ul{
+    list-style-type:none;
+}
