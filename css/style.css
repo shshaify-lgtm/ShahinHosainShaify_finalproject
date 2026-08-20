@@ -250,5 +250,53 @@ footer ul{
         display:block;
         margin:0 auto 10px;
     }
-    
+    header h1{
+        margin-left:0;
+        padding-top:0;
+        font-size:2em;
+    }
+    main{
+        padding:10px;
+    }
+    main h2{
+        font-size:1.5em;
+    }
+    #game-engines, #game-projects{
+        flex-direction:column;
+    }
+    #row, #row2{
+        width:100%;
+        margin-bottom:20px;
+        padding:10px;
+    }
+    #row img, #row2 img{
+        width:100%;
+        height:auto;
+    }
+    #contact-layout{
+        grid-template-columns: 1fr;
+        gap:20px;
+    }
+    #contact-information, #contact-form{
+        padding:10px;
+    }
+    #contact-form input[type="text"],
+    #contact-form input[type="email"],
+    #contact-form input[type="tel"],
+    #contact-form textarea{
+        width:100%;
+        padding:8px;
+    }
+    #contact-form fieldset label{
+        display:block;
+        margin-bottom: 10px;
+    }
+    #contact-form button{
+        width:100%;
+        margin-bottom:10px;
+    }
+    footer{
+        padding:10px;
+        text-align:center;
+    }
 }
