@@ -154,3 +154,25 @@ footer ul{
     gap:30px;
     margin-bottom:30px;
 }
+#contact-information{
+    background: rgb(220, 180, 255);
+    padding:20px;
+}
+#contact-information h3{
+    background: rgb(192, 121, 255);
+    color:white;
+    padding:10px;
+    margin-bottom:15px;
+}
+#contact-information ul{
+    padding-left:20px;
+    margin-bottom:15px;
+    list-style-type:none;
+}
+#contact-information li{
+    margin-bottom:5px;
+}
+#contact-form{
+    background: rgb(220, 180, 255);
+    padding:20px;
+}
