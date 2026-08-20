@@ -202,3 +202,53 @@ footer ul{
     font-size:1em;
     resize:vertical;
 }
+#contact-form fieldset{
+    padding:15px;
+    margin-bottom:15px;
+    border:1px solid #777;
+}
+#contact-form fieldset label{
+    display:inline-block;
+    margin-right:10px;
+    font-weight:normal;
+}
+#contact-form input[type="checkbox"]{
+    margin-right:5px;
+}
+
+#contact-form button{
+    background: rgb(192, 121, 255);
+    color:white;
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+#contact-form button:hover{
+    background: rgb(166, 225, 255);
+    color:#000;
+}
+@media (max-width: 768px) {
+    #wrapper {
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px; 
+    }
+    nav a {
+        display: block;
+        margin-bottom: 10px;
+    }
+    header{
+        height:auto;
+        padding: 20px;
+        text-align:center;
+    }
+    header img {
+        float:none;
+        width:100px;
+        height:auto;
+        display:block;
+        margin:0 auto 10px;
+    }
+    
+}
