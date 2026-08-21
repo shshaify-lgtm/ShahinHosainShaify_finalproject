@@ -249,6 +249,38 @@ footer ul{
     background: rgb(220, 180, 255);
     padding: 20px;
 }
+.step h4 {
+    background: rgb(192, 121, 255);
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#team {
+    margin-bottom: 30px;
+}
+#team-members {
+    display: flex;
+    gap: 30px;
+}
+.team-member{
+    flex: 1;
+    background: rgb(220, 180, 255);
+    padding: 20px;
+    text-align: center;
+}
+.team-member img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    max-width: 100%;
+    margin-bottom: 15px;
+}
+.team-member h4{
+    background: rgb(192, 121, 255);
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
 
 @media (max-width: 768px) {
     #wrapper {
