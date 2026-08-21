@@ -378,6 +378,24 @@ footer ul{
     margin-bottom: 10px;
     line-height: 1.6;
 }
+#introduction{
+    background: rgb(220, 180, 255);
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-left: 8px solid rgb(102, 78, 255);
+}
+#introduction h3{
+    background: rgb(192, 121, 255);
+    color: white;
+    padding: 12px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+#introduction p{
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
 @media (max-width: 768px) {
     #wrapper {
         width: 100%;
