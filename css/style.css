@@ -350,6 +350,22 @@ footer ul{
 .next{
     right: 20px;
 }
+.prev:hover, .next:hover{
+    opacity: 0.8;
+}
+#mission-vision{
+    background: rgb(220, 180, 255);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+#mission-vision{
+    background: rgb(220, 180, 255);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+#mission-vision{
+    margin-bottom: 15px;
+}
 
 @media (max-width: 768px) {
     #wrapper {
