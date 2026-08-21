@@ -1,5 +1,16 @@
 let slideIndex = 1;
 
+const previousButton = document.getElementById("previous");
+const nextButton = document.getElementById("next");
+
+previousButton.addEventListener("click", function(){
+    plusSlides(-1);
+});
+
+nextButton.addEventListener("click", function(){
+    plusSlides(1);
+});
+
 showSlides(slideIndex);
 
 function plusSlides(n){
@@ -7,7 +18,8 @@ function plusSlides(n){
 }
 
 function showSlides(n){
-    let slides = document.getElementsByClassName(mySlides);
+    
+    const slides = document.getElementById("mySlides");
 
     if (n>slides.length){
         slideIndex = 1;
