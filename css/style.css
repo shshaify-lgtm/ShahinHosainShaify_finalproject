@@ -306,11 +306,14 @@ footer ul{
     padding: 10px;
     margin-bottom: 10px;
 }
+
 #slideshow{
+    margin-top: 30px;
     margin-bottom: 30px;
 }
 .slideshow-container{
     position: relative;
+    width: 100%;
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -354,19 +357,23 @@ footer ul{
     opacity: 0.8;
 }
 #mission-vision{
+    display:block;
+    width: 100%;
     background: rgb(220, 180, 255);
     padding: 20px;
+    margin-top: 30px;
     margin-bottom: 30px;
 }
-#mission-vision{
-    background: rgb(220, 180, 255);
-    padding: 20px;
-    margin-bottom: 30px;
-}
-#mission-vision{
+#mission-vision h3 {
+    background: rgb(192, 121, 255);
+    color: white;
+    padding: 10px;
     margin-bottom: 15px;
 }
-
+#mission-vision p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
 @media (max-width: 768px) {
     #wrapper {
         width: 100%;
