@@ -19,7 +19,7 @@ function plusSlides(n){
 
 function showSlides(n){
     
-    const slides = document.getElementById("mySlides");
+    const slides = document.getElementsByClassName("mySlides");
 
     if (n>slides.length){
         slideIndex = 1;
