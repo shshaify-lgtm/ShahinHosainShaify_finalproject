@@ -473,4 +473,41 @@ footer ul{
         padding:10px;
         text-align:center;
     }
+    #introduction{
+        padding: 15px;
+    }
+    #development-steps{
+        flex-direction: column;
+    }
+    .step{
+        width: 100%;
+    }
+    #team-members{
+        flex-direction: column;
+    }
+    .team-member{
+        width: 100%;
+    }
+    #game-list{
+        grid-template-columns: 1fr;
+    }
+    .slideshow-container{
+        width: 100%;
+        min-height: 350px;
+        padding: 10px;
+    }
+    .mySlides img{
+        width: 100%;
+        height: auto;
+        max-height: 280px;
+        object-fit: contain;
+    }
+    .prev, .next {
+        padding: 8px 10px;
+        font-size: 16px;
+    }
+    #mission-vision {
+        width: 100%;
+        padding: 15px;
+    }
 }
