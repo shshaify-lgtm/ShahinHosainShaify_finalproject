@@ -294,6 +294,62 @@ footer ul{
     background: rgb(220, 180, 255);
     padding: 20px;
 }
+.game img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+.game h4{
+    background: rgb(192, 121, 255);
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#slideshow{
+    margin-bottom: 30px;
+}
+.slideshow-container{
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgb(220, 180, 255);
+    text-align: center;
+}
+.mySlides {
+    display: none;
+}
+.mySlides img{
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    object-fit: contain;
+}
+.text{
+    background: rgb(192, 121, 255);
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+.prev, .next{
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgb(102, 78, 255);
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+.prev{
+    left: 20px;
+}
+.next{
+    right: 20px;
+}
 
 @media (max-width: 768px) {
     #wrapper {
