@@ -281,6 +281,19 @@ footer ul{
     padding: 10px;
     margin-bottom: 10px;
 }
+#games{
+    margin-bottom: 30px;
+}
+#game-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-top: 20px;
+}
+.game{
+    background: rgb(220, 180, 255);
+    padding: 20px;
+}
 
 @media (max-width: 768px) {
     #wrapper {
