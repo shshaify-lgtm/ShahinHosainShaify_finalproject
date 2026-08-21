@@ -228,6 +228,28 @@ footer ul{
     background: rgb(166, 225, 255);
     color:#000;
 }
+#introduction {
+    background: rgb(220, 180, 255);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+#introduction p {
+    margin-bottom: 15px;
+}
+#development-process{
+    margin-bottom: 30px;
+}
+#development-steps{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.step{
+    flex: 1 1 250px;
+    background: rgb(220, 180, 255);
+    padding: 20px;
+}
+
 @media (max-width: 768px) {
     #wrapper {
         width: 100%;
