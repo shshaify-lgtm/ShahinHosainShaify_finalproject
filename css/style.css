@@ -402,6 +402,9 @@ footer ul{
         margin: 0 auto;
         padding: 10px; 
     }
+    nav {
+        text-align: center;
+    }
     nav span {
         display: none;
     }
